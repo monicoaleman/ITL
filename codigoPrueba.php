@@ -21,35 +21,3 @@ else{
  ?>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Resultado de Operaciones</title>
-	<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../../css/estilos.css">
-	<link rel="stylesheet" href="../../font-awesome/css/font-awesome.css">
-</head>
-<body>
-
-	<legend>
-		<h2>Resultado del ejercicio # 4</h2>
-	</legend>
-	
-	<div class="container">
-		<div class="container-fluid">
-			<p class="resultado">
-				 <?php echo $msj; ?>
-			</p>
-		</div>
-	</div>
-	
-	<div class="container">
-		<a href="index.php" title="Regresar al Ejercicio" class="btn btn-primary pull-right btn-lg">
-			<i class="fa fa-arrow-left" aria-hidden="true"></i>
-			Ejercicio
-		</a>	
-	</div>
-	
-</body>
-</html>
